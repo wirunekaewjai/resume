@@ -1,0 +1,31 @@
+.container
+{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 5mm;
+}
+
+.icon
+{
+  font-size: 1.4em;
+}
+
+.info
+{
+  display: grid;
+  row-gap: 3mm;
+}
+
+.title
+{
+  font-size: 1.4em;
+  // color: var(--primary-color);
+}
+
+.tags
+{
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+}

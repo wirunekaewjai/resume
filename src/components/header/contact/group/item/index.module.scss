@@ -1,0 +1,13 @@
+.text
+{
+  margin-left: 3mm;
+
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.anchor:hover
+{
+  filter: brightness(1.2);
+  text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+.container
+{
+  display: grid;
+  row-gap: 1mm;
+
+  font-size: 0.9em;
+}
+
+.title
+{
+  font-weight: 500;
+}
+
+.subtitle
+{
+  font-weight: 400;
+  color: #666;
+}
+
+.list
+{
+  margin: 0 0 1mm;
+}
+
+.item
+{
+  margin: 1mm 0;
+}
