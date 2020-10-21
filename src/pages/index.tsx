@@ -1,4 +1,6 @@
 import { GetServerSideProps } from 'next';
+import Head from 'next/head';
+
 import { Header } from '@src/components/header';
 import { Content } from '@src/components/content';
 
@@ -15,6 +17,15 @@ export default function Page ()
 {
   return (
     <div>
+      <Head>
+        <title>
+          Wirune Kaewjai - Frontend Web Developer
+        </title>
+        <meta
+          name="description"
+          content="Experienced as a website developer for 4 years with ReactJS. Create a many websites such as Blog, E-Commerce and Content Management System."
+        />
+      </Head>
       <Header
         avatar="/images/avatar.jpg"
         name="WIRUNE KAEWJAI"

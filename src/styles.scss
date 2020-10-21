@@ -10,6 +10,12 @@
   --primary-color: #003fff;
 }
 
+*
+{
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important; 
+}
+
 html
 {
   font-family: 'Roboto', sans-serif;
