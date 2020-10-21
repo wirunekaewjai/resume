@@ -25,6 +25,12 @@ export default function Page ()
           name="description"
           content="Experienced as a website developer for 4 years with ReactJS. Create a many websites such as Blog, E-Commerce and Content Management System."
         />
+        <link
+          rel="icon"
+          type="image/png"
+          href="/images/favicon.png"
+          sizes="96x96"
+        />
       </Head>
       <Header
         avatar="/images/avatar.jpg"
