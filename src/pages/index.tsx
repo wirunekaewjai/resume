@@ -15,9 +15,29 @@ export const getServerSideProps: GetServerSideProps = async ({ req }) =>
 
 export default function Page ()
 {
+  const ga = process.env.GA;
+
   return (
     <div>
       <Head>
+        {
+          ga ?
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga}`}></script>
+            <script 
+              dangerouslySetInnerHTML={{
+                __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${ga}');
+                `,
+              }}
+            />
+          </>
+          :
+          null
+        }
         <title>
           Wirune Kaewjai - Frontend Web Developer
         </title>
