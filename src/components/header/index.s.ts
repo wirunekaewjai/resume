@@ -1,6 +1,8 @@
-.container
+import css from '@wirunekaewjai/css';
+
+export default css`
+module-container
 {
-  // background-color: #f5f5fa;
   background-color: #ccccd2;
   padding: 9mm 1cm;
 
@@ -10,7 +12,7 @@
   column-gap: 1cm;
 }
 
-.avatar
+module-avatar
 {
   width: 1in;
   height: 1in;
@@ -18,7 +20,7 @@
   border-radius: 1cm;
 }
 
-.info
+module-info
 {
   display: grid;
   row-gap: 5mm;
@@ -26,25 +28,24 @@
   align-items: flex-start;
 }
 
-.headline
+module-headline
 {
   display: grid;
-  // row-gap: 1mm;
 }
 
-.contacts
+module-contacts
 {
   display: grid;
   grid-template-columns: 6cm auto;
 }
 
-.title
+module-title
 {
   font-weight: 700;
   font-size: 2em;
 }
 
-.subtitle
+module-subtitle
 {
   font-weight: 400;
   font-size: 1em;
@@ -52,9 +53,10 @@
 
 @media screen
 {
-  .container
+  module-container
   {
     border-top-left-radius: 1mm;
     border-top-right-radius: 1mm;
   }
 }
+`;

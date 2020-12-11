@@ -1,4 +1,7 @@
-.tag
+import css from '@wirunekaewjai/css';
+
+export default css`
+module-tag
 {
   display: inline;
 
@@ -12,3 +15,4 @@
 
   font-size: 0.88em;
 }
+`;

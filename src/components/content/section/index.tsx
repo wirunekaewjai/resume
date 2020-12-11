@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { Item } from './item';
 import { Tag } from './tag';
 import { Props } from './types';
-import css from './index.module.scss';
+import css from './index.c';
 
 export function Section ({
   icon,

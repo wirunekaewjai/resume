@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 
 import { Props } from './types';
-import css from './index.module.scss';
+import css from './index.c';
 
 export function Item ({
   text,

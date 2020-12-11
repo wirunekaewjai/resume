@@ -1,3 +1,7 @@
+import css from '@wirunekaewjai/css';
+
+export const entry = 'home';
+export default css`
 @page
 {
   margin: 0;
@@ -6,7 +10,6 @@
 
 :root
 {
-  // --primary-color: #2196f3;
   --primary-color: #003fff;
 }
 
@@ -20,8 +23,6 @@ html
 {
   font-family: 'Roboto', sans-serif;
   font-size: 12pt;
-
-  // filter: grayscale(1);
 }
 
 body
@@ -29,16 +30,10 @@ body
   width: 210mm;
   height: 297mm;
 
-  // line-height: 1.4em;
   letter-spacing: 0.1mm;
 
   color: #222;
 }
-
-// #__next
-// {
-  
-// }
 
 h1, h2, h3, h4, h5, h6, p
 {
@@ -73,3 +68,4 @@ h1, h2, h3, h4, h5, h6, p
     margin: 0;
   }
 }
+`;

@@ -1,4 +1,7 @@
-.container
+import css from '@wirunekaewjai/css';
+
+export default css`
+module-container
 {
   display: grid;
   row-gap: 1mm;
@@ -6,23 +9,24 @@
   font-size: 0.9em;
 }
 
-.title
+module-title
 {
   font-weight: 500;
 }
 
-.subtitle
+module-subtitle
 {
   font-weight: 400;
   color: #666;
 }
 
-.list
+module-list
 {
   margin: 0 0 1mm;
 }
 
-.item
+module-item
 {
   margin: 1mm 0;
 }
+`;

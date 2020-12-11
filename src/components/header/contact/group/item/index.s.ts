@@ -1,4 +1,7 @@
-.text
+import css from '@wirunekaewjai/css';
+
+export default css`
+module-text
 {
   margin-left: 3mm;
 
@@ -6,8 +9,9 @@
   text-decoration: none;
 }
 
-.anchor:hover
+module-anchor:hover
 {
   filter: brightness(1.2);
   text-decoration: underline;
 }
+`;
