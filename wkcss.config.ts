@@ -3,7 +3,7 @@ import c from '@wirunekaewjai/css/config';
 export default c({
   source: {
     dir: 'src',
-    ext: '.s.ts',
+    ext: '.css',
   },
 
   out: {
@@ -14,7 +14,9 @@ export default c({
     css: {
       dir: 'src',
       entries: {
-        'home': 'src/pages/index.tsx',
+        'app': [
+          'src/pages/index.tsx'
+        ],
       },
     },
   },

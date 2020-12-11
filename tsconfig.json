@@ -28,7 +28,6 @@
     "**/*.tsx"
   ],
   "exclude": [
-    "node_modules",
-    "src/**/*.s.ts"
+    "node_modules"
   ]
 }

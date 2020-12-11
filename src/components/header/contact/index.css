@@ -1,6 +1,3 @@
-import css from '@wirunekaewjai/css';
-
-export default css`
 module-container
 {
   display: grid;
@@ -8,4 +5,3 @@ module-container
 
   font-size: 0.8em;
 }
-`;

@@ -1,4 +1,4 @@
-import '@src/home.css';
+import '@src/app.css';
 
 function MyApp ({ Component, pageProps })
 {

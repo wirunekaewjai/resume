@@ -1,6 +1,3 @@
-import css from '@wirunekaewjai/css';
-
-export default css`
 module-container
 {
   display: grid;
@@ -29,4 +26,3 @@ module-item
 {
   margin: 1mm 0;
 }
-`;

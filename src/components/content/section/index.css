@@ -1,6 +1,3 @@
-import css from '@wirunekaewjai/css';
-
-export default css`
 module-container
 {
   display: grid;
@@ -31,4 +28,3 @@ module-tags
   flex-direction: row;
   flex-wrap: wrap;
 }
-`;

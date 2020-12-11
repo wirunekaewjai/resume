@@ -1,6 +1,3 @@
-import css from '@wirunekaewjai/css';
-
-export default css`
 module-container
 {
   background-color: #ccccd2;
@@ -59,4 +56,3 @@ module-subtitle
     border-top-right-radius: 1mm;
   }
 }
-`;

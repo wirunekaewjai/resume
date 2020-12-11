@@ -356,10 +356,10 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
-"@wirunekaewjai/css@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@wirunekaewjai/css/-/css-0.2.0.tgz#a793c0d9490a2147385d4725b516cf1b05b5f210"
-  integrity sha512-PRFxSV5MwqK3DAoWO9p0L/j6IQPqQsYIqjACEJAgWNTN7E7vonsFwmyZTlsdgYd2jNjkL2R+4GSacbtIOwXiuw==
+"@wirunekaewjai/css@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@wirunekaewjai/css/-/css-0.2.1.tgz#b3b660574472ca05ba75762675f9cfeae32e036f"
+  integrity sha512-j535251HKN5Qkuo5rZAnd375G49f/AuhzYW4nhfSTsiqiIj/4ZYZjzapHWs1tRhy3Ftn87IwbavRH3C9RzMA4A==
   dependencies:
     "@types/chalk" "^2.2.0"
     "@types/glob" "^7.1.3"
