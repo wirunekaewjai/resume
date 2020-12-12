@@ -3,7 +3,7 @@ import c from '@wirunekaewjai/css/config';
 export default c({
   source: {
     dir: 'src',
-    ext: '.css',
+    ext: '.scss',
   },
 
   out: {
