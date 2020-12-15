@@ -1,6 +1,6 @@
 import { Contact } from './contact';
 import { Props } from './types';
-import css from './index.c';
+import css from './index.module.scss';
 
 export function Header ({
   avatar,

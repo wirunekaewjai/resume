@@ -1,5 +1,6 @@
-module-container
+.container
 {
+  // background-color: #f5f5fa;
   background-color: #ccccd2;
   padding: 9mm 1cm;
 
@@ -9,7 +10,7 @@ module-container
   column-gap: 1cm;
 }
 
-module-avatar
+.avatar
 {
   width: 1in;
   height: 1in;
@@ -17,7 +18,7 @@ module-avatar
   border-radius: 1cm;
 }
 
-module-info
+.info
 {
   display: grid;
   row-gap: 5mm;
@@ -25,24 +26,25 @@ module-info
   align-items: flex-start;
 }
 
-module-headline
+.headline
 {
   display: grid;
+  // row-gap: 1mm;
 }
 
-module-contacts
+.contacts
 {
   display: grid;
   grid-template-columns: 6cm auto;
 }
 
-module-title
+.title
 {
   font-weight: 700;
   font-size: 2em;
 }
 
-module-subtitle
+.subtitle
 {
   font-weight: 400;
   font-size: 1em;
@@ -50,7 +52,7 @@ module-subtitle
 
 @media screen
 {
-  module-container
+  .container
   {
     border-top-left-radius: 1mm;
     border-top-right-radius: 1mm;

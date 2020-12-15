@@ -1,6 +1,6 @@
 import { Group } from './group';
 import { Props } from './types';
-import css from './index.c';
+import css from './index.module.scss';
 
 export function Contact ({
   groups,

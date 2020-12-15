@@ -1,27 +1,28 @@
-module-container
+.container
 {
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 5mm;
 }
 
-module-icon
+.icon
 {
   font-size: 1.4em;
 }
 
-module-info
+.info
 {
   display: grid;
   row-gap: 3mm;
 }
 
-module-title
+.title
 {
   font-size: 1.4em;
+  // color: var(--primary-color);
 }
 
-module-tags
+.tags
 {
   display: flex;
 

@@ -1,4 +1,4 @@
-module-container
+.container
 {
   display: grid;
   row-gap: 1mm;
@@ -6,23 +6,23 @@ module-container
   font-size: 0.9em;
 }
 
-module-title
+.title
 {
   font-weight: 500;
 }
 
-module-subtitle
+.subtitle
 {
   font-weight: 400;
   color: #666;
 }
 
-module-list
+.list
 {
   margin: 0 0 1mm;
 }
 
-module-item
+.item
 {
   margin: 1mm 0;
 }

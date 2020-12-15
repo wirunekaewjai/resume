@@ -1,4 +1,4 @@
-module-text
+.text
 {
   margin-left: 3mm;
 
@@ -6,7 +6,7 @@ module-text
   text-decoration: none;
 }
 
-module-anchor:hover
+.anchor:hover
 {
   filter: brightness(1.2);
   text-decoration: underline;

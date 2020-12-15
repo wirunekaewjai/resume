@@ -2,7 +2,7 @@ import clsx from 'clsx';
 
 import { Item } from './item';
 import { Props } from './types';
-import css from './index.c';
+import css from './index.module.scss';
 
 export function Group ({
   icon,

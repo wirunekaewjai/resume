@@ -1,15 +1,15 @@
-module-container
+.container
 {
   display: flex;
   align-items: flex-start;
 }
 
-module-icon
+.icon
 {
   font-size: 12pt;
 }
 
-module-items
+.items
 {
   display: grid;
   row-gap: 1mm;
