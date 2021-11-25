@@ -1,17 +1,7 @@
-import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 
 import { Header } from '@src/components/header';
 import { Content } from '@src/components/content';
-
-export const getServerSideProps: GetServerSideProps = async ({ req }) =>
-{
-  const props = {};
-
-  return {
-    props,
-  };
-}
 
 export default function Page ()
 {

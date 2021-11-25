@@ -1,4 +1,3 @@
-// import 'normalize.css/normalize.css';
 import '@src/styles.scss';
 
 function MyApp ({ Component, pageProps })
