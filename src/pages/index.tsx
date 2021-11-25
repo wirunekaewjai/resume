@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Script from 'next/script';
 
 import { Header } from '@src/components/header';
 import { Content } from '@src/components/content';
@@ -13,8 +14,9 @@ export default function Page ()
         {
           ga ?
           <>
-            <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga}`}></script>
-            <script 
+            <Script async src={`https://www.googletagmanager.com/gtag/js?id=${ga}`}></Script>
+            <Script 
+              strategy="afterInteractive"
               dangerouslySetInnerHTML={{
                 __html: `
                 window.dataLayer = window.dataLayer || [];
@@ -45,7 +47,7 @@ export default function Page ()
       <Header
         avatar="/images/avatar.jpg"
         name="WIRUNE KAEWJAI"
-        job="Frontend Web Developer"
+        job="Software Engineer"
         contacts={[
           {
             groups: [
@@ -107,31 +109,38 @@ export default function Page ()
             title: 'WORK EXPERIENCE',
             items: [
               {
-                title: 'Full Stack Developer at Wolves Work | Digital Agency, Bangkok',
-                subtitle: 'May 2018 – October 2020',
+                title: 'Software Engineer at Refinitiv, an LSEG business - Bangkok (Contract)',
+                subtitle: 'January 2021 - Present',
                 items: [
-                  'Develop E-Commerce Websites with NextJS and Styled-JSX',
-                  'Develop CMS for E-Commerce Website with Create-React-App and Styled-Components + Material UI (v3.6)',
-                  'Develop Web Creation Tool for Non-Developer',
+                  'Develop a part of storage framework with NodeJS and Typescript',
+                  'Develop a part of API for CRUD data on AWS AppSync with Lambda and DynamoDB'
                 ],
               },
               {
-                title: 'Freelance Developer, Bangkok',
+                title: 'Full Stack Developer at Wolves Work | Digital Agency - Bangkok',
+                subtitle: 'May 2018 – October 2020',
+                items: [
+                  'Develop E-Commerce websites with NextJS and Firebase',
+                  'Develop CMS for E-Commerce website with ReactJS and styled-components + Material UI (v3.6)',
+                  'Develop web creation tool for non-developer',
+                ],
+              },
+              {
+                title: 'Freelance Developer - Bangkok',
                 subtitle: 'January 2014 – April 2018',
                 items: [
-                  'Develop Android Application with Java and Wordpress REST API',
-                  'Develop Unity 2D Game with C# and Firebase Database and Firebase Functions',
+                  'Develop Android application with Java and Wordpress REST API',
+                  'Develop Unity 2D Game with C# and Firebase',
                   'Develop Dashboard and Content Management with ReactJS + Material UI (v3.6) and Firebase Cloud Firestore',
                 ],
               },
               {
-                title: 'Lecturer at Dhurakij Pundit University, Bangkok',
+                title: 'Lecturer at Dhurakij Pundit University - Bangkok',
                 subtitle: 'January 2014 – August 2017',
                 items: [
                   'HTML, CSS, Javascript',
                   'Android (Java)',
                   'Unity3D (C#)',
-                  'Java / Object-Oriented Programming',
                 ],
               }
             ],
@@ -141,7 +150,7 @@ export default function Page ()
             title: 'INTERNSHIP',
             items: [
               {
-                title: 'Software Developer at Microsoft Innovation Center - Bangkok, Bangkok',
+                title: 'Software Developer at Microsoft Innovation Center - Bangkok',
                 subtitle: 'November 2012 – March 2013',
                 items: [
                   'Develop Windows Phone 8 Application (C# and XAML)',
@@ -155,7 +164,7 @@ export default function Page ()
             title: 'EDUCATION',
             items: [
               {
-                title: 'Dhurakij Pundit University, Bangkok',
+                title: 'Dhurakij Pundit University - Bangkok',
                 subtitle: '2009 – 2013',
                 items: [
                   'Bachelor of Engineering in Computer Animation and Game Engineering',
@@ -163,25 +172,25 @@ export default function Page ()
               }
             ],
           },
-          {
-            icon: 'build',
-            title: 'SKILL',
-            tags: [
-              'HTML',
-              'CSS',
-              'Javascript',
-              'ReactJS',
-              'NextJS',
-              'Firebase Cloud Firestore',
-              'Firebase Functions',
-              'Google Cloudrun',
-              'Material UI',
-              'Styled Components',
-              'Styled JSX',
-              'CSS Module',
-              'Mongo DB',
-            ],
-          }
+          // {
+          //   icon: 'build',
+          //   title: 'SKILL',
+          //   tags: [
+          //     'HTML',
+          //     'CSS',
+          //     'Javascript',
+          //     'ReactJS',
+          //     'NextJS',
+          //     'Firebase Cloud Firestore',
+          //     'Firebase Functions',
+          //     'Google Cloudrun',
+          //     'Material UI',
+          //     'Styled Components',
+          //     'Styled JSX',
+          //     'CSS Module',
+          //     'Mongo DB',
+          //   ],
+          // }
         ]}
       />
     </div>
