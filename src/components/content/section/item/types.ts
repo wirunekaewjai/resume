@@ -2,5 +2,6 @@
 export type Props = {
   title: string;
   subtitle: string;
-  items: string[];
+  isList?: boolean;
+  items: Array<string | JSX.Element>;
 };

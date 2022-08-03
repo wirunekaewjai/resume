@@ -4,6 +4,7 @@ import css from './index.module.scss';
 export function Item ({
   title,
   subtitle,
+  isList = false,
   items,
 }: Props)
 {
@@ -16,7 +17,7 @@ export function Item ({
         {subtitle}
       </h5>
       {
-        items.length > 1 ?
+        isList || items.length > 1 ?
         <ul className={css['list']} >
           {
             items.map((item, i) => (

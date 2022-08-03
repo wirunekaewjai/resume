@@ -25,6 +25,7 @@ export function Section ({
               key={'item-' + i}
               title={item.title}
               subtitle={item.subtitle}
+              isList={item.isList}
               items={item.items}
             />
           ))
