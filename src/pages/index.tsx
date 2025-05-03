@@ -36,7 +36,7 @@ export default function Page ()
         </title>
         <meta
           name="description"
-          content="Experienced as a website developer for 4 years with ReactJS. Create a many websites such as Blog, E-Commerce and Content Management System."
+          content="Experienced as a website developer for 6 years with ReactJS. Create a many websites such as Blog, E-Commerce and Content Management System."
         />
         <link
           rel="icon"
@@ -110,11 +110,11 @@ export default function Page ()
             title: 'WORK EXPERIENCE',
             items: [
               {
-                title: 'Senior Frontend Engineer at bluePi - Bangkok',
-                subtitle: 'July 2022 - Present',
+                title: 'Senior Frontend Developer at Inspekt AI - Bangkok',
+                subtitle: 'September 2023 - Present',
                 isList: true,
                 items: [
-                  'Develop a part of website using NextJS and Typescript',
+                  'Develop web app using React and Typescript to display interactive 3D model on top of CesiumJS',
                 ],
               },
               {
@@ -170,9 +170,7 @@ export default function Page ()
                 title: 'Lecturer at Dhurakij Pundit University - Bangkok',
                 subtitle: 'January 2014 - August 2017',
                 items: [
-                  'HTML, CSS, Javascript',
-                  'Android (Java)',
-                  'Unity3D (C#)',
+                  'HTML, CSS, Javascript, Android (Java), and Unity3D (C#)',
                 ],
               }
             ],
