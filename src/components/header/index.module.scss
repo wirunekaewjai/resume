@@ -1,8 +1,9 @@
 .container
 {
   // background-color: #f5f5fa;
-  background-color: #ccccd2;
-  padding: 9mm 1cm;
+  // background-color: #ccccd2;
+  // background-color: #030712;
+  padding: 8mm 1cm 6mm;
 
   display: grid;
 
@@ -21,7 +22,7 @@
 .info
 {
   display: grid;
-  row-gap: 5mm;
+  row-gap: 3mm;
 
   align-items: flex-start;
 }
@@ -40,12 +41,15 @@
 
 .title
 {
+  // color: white;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.75em;
 }
 
 .subtitle
 {
+  color: #6b7282;
+  // color: #9aa1af;
   font-weight: 400;
   font-size: 1em;
 }

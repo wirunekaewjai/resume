@@ -3,7 +3,7 @@ import Script from 'next/script';
 
 import { Header } from '@src/components/header';
 import { Content } from '@src/components/content';
-import { Link } from '@src/components/link';
+import { Divider } from '@src/components/divider';
 
 export default function Page ()
 {
@@ -48,7 +48,7 @@ export default function Page ()
       <Header
         avatar="/images/avatar.jpg"
         name="WIRUNE KAEWJAI"
-        job="Software Engineer"
+        job="Senior Frontend Engineer"
         contacts={[
           {
             groups: [
@@ -103,6 +103,7 @@ export default function Page ()
           }
         ]}
       />
+      <Divider />
       <Content
         sections={[
           {
@@ -110,69 +111,81 @@ export default function Page ()
             title: 'WORK EXPERIENCE',
             items: [
               {
-                title: 'Senior Frontend Developer at Inspekt AI - Bangkok',
-                subtitle: 'September 2023 - Present',
+                title: 'Frontend Lead at Inspekt AI - Bangkok',
+                subtitle: 'February 2025 - Present',
                 isList: true,
                 items: [
-                  'Develop web app using React and Typescript to display interactive 3D model on top of CesiumJS',
+                  'Guide frontend technical direction via decision-making, code reviews and collaborating with design team',
+                  'Spearhead the development and implementation of core application features',
+                ],
+              },
+              {
+                title: 'Senior Frontend Developer at Inspekt AI - Bangkok',
+                subtitle: 'September 2023 - January 2025',
+                isList: true,
+                items: [
+                  'Develop sophisticated web applications using React and Typescript, leveraging CesiumJS to render and display interactive 3D models',
                 ],
               },
               {
                 title: 'Software Engineer at Refinitiv, an LSEG business - Bangkok',
                 subtitle: 'January 2021 - June 2022',
                 items: [
-                  'Develop a part of storage framework with NodeJS and Typescript',
-                  'Develop a part of API for CRUD data on AWS AppSync with Lambda and DynamoDB'
+                  'Contributed to the development of a storage framework using NodeJS and Typescript',
+                  'Built and maintained API endpoints for CRUD operations using AWS AppSync, Lambda and DynamoDB'
                 ],
               },
               {
                 title: 'Full Stack Developer at Wolves Work | Digital Agency - Bangkok',
                 subtitle: 'May 2018 - October 2020',
+                isList: true,
                 items: [
-                  <span>
-                    <span>Develop E-Commerce, Blog, and Company websites with NextJS</span>
-                    <span
-                      className="non-printable"
-                      style={{ marginLeft: '1mm' }}
-                    >
-                      [Example:
-                      <Link
-                        href="https://www.suanluang.co.th/"
-                        text="#1"
-                      />
-                      ,
-                      <Link
-                        href="https://mirror6.com/"
-                        text="#2"
-                      />
-                      ,
-                      <Link
-                        href="https://www.creativeinvestment.space/"
-                        text="#3"
-                      />
-                      ]
-                    </span>
-                  </span>,
-                  'Develop CMS for E-Commerce website with ReactJS and styled-components + Material UI (v3.6)',
-                  'Develop web creation tool for non-developer',
+                  // <span>
+                  //   <span>Delivered multiple client websites, including E-Commerce platforms, blogs, and company sites, utilizing NextJS</span>
+                  //   <span
+                  //     className="non-printable"
+                  //     style={{ marginLeft: '1mm' }}
+                  //   >
+                  //     [Example:
+                  //     <Link
+                  //       href="https://www.suanluang.co.th/"
+                  //       text="#1"
+                  //     />
+                  //     ,
+                  //     <Link
+                  //       href="https://mirror6.com/"
+                  //       text="#2"
+                  //     />
+                  //     ,
+                  //     <Link
+                  //       href="https://www.creativeinvestment.space/"
+                  //       text="#3"
+                  //     />
+                  //     ]
+                  //   </span>
+                  // </span>,
+                  'Delivered multiple client websites, including E-Commerce platforms, blogs, and company sites using NextJS',
+                  'Built a content management system for an E-Commerce website using ReactJS, styled-components, and Material UI (v3.6)',
+                  'Created a user-friendly web creation tool designed for non-technical users, simplifying the website development process',
                 ],
               },
-              {
-                title: 'Freelance Developer - Bangkok',
-                subtitle: 'January 2014 - April 2018',
-                items: [
-                  // 'Develop Android application with Java and Wordpress REST API',
-                  'Develop Unity 2D Game with C# and Firebase',
-                  'Develop Dashboard and Content Management with ReactJS + Material UI (v3.6) and Firebase Cloud Firestore',
-                ],
-              },
+              // {
+              //   title: 'Freelance Developer - Bangkok',
+              //   subtitle: 'January 2014 - April 2018',
+              //   items: [
+              //     // 'Develop Android application with Java and Wordpress REST API',
+              //     'Built a Unity 2D game with C# and utilizing Firebase for backend services',
+              //     'Created custom dashboard and CMS using ReactJS, Material UI, and Firebase to display and manage data generated by the Unity 2D game',
+              //   ],
+              // },
               {
                 title: 'Lecturer at Dhurakij Pundit University - Bangkok',
                 subtitle: 'January 2014 - August 2017',
+                isList: true,
                 items: [
-                  'HTML, CSS, Javascript, Android (Java), and Unity3D (C#)',
+                  'Instructed university students on core programming and development concepts, including HTML, CSS, Javascript, Android (Java), and Unity3D (C#)',
                 ],
-              }
+              },
             ],
           },
           {
@@ -183,8 +196,8 @@ export default function Page ()
                 title: 'Software Developer at Microsoft Innovation Center - Bangkok',
                 subtitle: 'November 2012 - March 2013',
                 items: [
-                  'Develop Windows Phone 8 Application (C# and XAML)',
-                  'Edit an exists Kinect (OpenGL) source code',
+                  'Developed a Windows Phone 8 application using C#',
+                  'Modified existing OpenGL project that utilized the Kinect to develop custom user interactive features',
                 ],
               }
             ],
@@ -197,7 +210,7 @@ export default function Page ()
                 title: 'Dhurakij Pundit University - Bangkok',
                 subtitle: '2009 - 2013',
                 items: [
-                  'Bachelor of Engineering in Computer Animation and Game Engineering',
+                  'Bachelor of Engineering in Computer Animation and Game Engineering (First Class Honours)',
                 ],
               }
             ],
