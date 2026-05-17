@@ -1,35 +1,21 @@
 {
-  "name": "resume",
+  "name": "resume-v2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://wirunekaewjai@github.com/wirunekaewjai/resume.git"
-  },
-  "keywords": [],
-  "author": "Wirune Kaewjai",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wirunekaewjai/resume/issues"
-  },
-  "homepage": "https://github.com/wirunekaewjai/resume#readme",
-  "dependencies": {
-    "clsx": "^1.1.1",
-    "next": "^12.0.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
-    "@types/node": "^14.11.10",
-    "@types/react": "^16.9.53",
-    "@types/react-dom": "^16.9.8",
-    "sass": "^1.27.0",
-    "typescript": "^4.0.3"
+    "@sveltejs/adapter-static": "3.0.10",
+    "@sveltejs/kit": "2.60.1",
+    "@sveltejs/vite-plugin-svelte": "7.1.2",
+    "sass": "1.99.0",
+    "svelte": "5.55.7",
+    "svelte-check": "4.4.8",
+    "typescript": "6.0.3",
+    "vite": "8.0.13"
   }
 }
