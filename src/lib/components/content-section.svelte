@@ -3,9 +3,10 @@
   import Tag from "./content-section-tag.svelte";
 
   interface SectionItem {
+    display: "normal" | "short";
     title: string;
     subtitle: string;
-    isList?: boolean;
+    itemType: "list" | "text";
     items: string[];
   }
 
@@ -24,7 +25,13 @@
   <div class="info">
     <h3 class="title">{title}</h3>
     {#each items ?? [] as item, index (index)}
-      <Item title={item.title} subtitle={item.subtitle} isList={item.isList} items={item.items} />
+      <Item
+        display={item.display}
+        title={item.title}
+        subtitle={item.subtitle}
+        itemType={item.itemType}
+        items={item.items}
+      />
     {/each}
     {#if tags && tags.length > 0}
       <div class="tags">

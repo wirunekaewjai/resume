@@ -1,25 +1,33 @@
 <script lang="ts">
   interface Props {
+    display: "normal" | "short";
     title: string;
     subtitle: string;
-    isList?: boolean;
+    itemType: "list" | "text";
     items: string[];
   }
 
-  const { title, subtitle, isList = false, items }: Props = $props();
+  const { display, title, subtitle, itemType, items }: Props = $props();
 </script>
 
 <div class="container">
-  <h4 class="title">{title}</h4>
-  <h5 class="subtitle">{subtitle}</h5>
-  {#if isList || items.length > 1}
+  {#if display === "short"}
+    <div class="short">
+      <h4 class="title">{title}</h4>
+      <h5 class="subtitle">{subtitle}</h5>
+    </div>
+  {:else}
+    <h4 class="title">{title}</h4>
+    <h5 class="subtitle">{subtitle}</h5>
+  {/if}
+  {#if itemType === "list"}
     <ul class="list">
       {#each items as item, index (index)}
         <li class="item">{item}</li>
       {/each}
     </ul>
   {:else}
-    <p class="item">{items[0]}</p>
+    <p class="item">{items.join(", ")}</p>
   {/if}
 </div>
 
@@ -46,5 +54,13 @@
 
   .item {
     margin: 1mm 0;
+  }
+
+  .short {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1mm;
+    align-items: center;
   }
 </style>

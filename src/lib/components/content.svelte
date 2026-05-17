@@ -2,9 +2,10 @@
   import Section from "./content-section.svelte";
 
   interface SectionItem {
+    display: "normal" | "short";
     title: string;
     subtitle: string;
-    isList?: boolean;
+    itemType: "list" | "text";
     items: string[];
   }
 
@@ -30,7 +31,7 @@
 
 <style>
   .container {
-    padding: 5mm 2cm 0 1cm;
+    padding: 3mm 2cm 0 1cm;
     display: grid;
     row-gap: 5mm;
   }

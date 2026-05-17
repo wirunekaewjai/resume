@@ -1,7 +1,6 @@
 <script lang="ts">
   import avatarSrc from "$lib/assets/avatar.jpg";
   import Header from "$lib/components/header.svelte";
-  import Divider from "$lib/components/divider.svelte";
   import Content from "$lib/components/content.svelte";
 </script>
 
@@ -17,6 +16,16 @@
   <Header
     avatar={avatarSrc}
     name="WIRUNE KAEWJAI"
+    heading="Senior Frontend Engineer with 7+ years building React/TypeScript applications, specializing in interactive 3D web experiences (CesiumJS). Background in Computer Animation & Game Engineering."
+    stack={[
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Node.js",
+      "CesiumJS",
+      "Firebase (Firestore, Auth, Storage)",
+      "AWS (AppSync/Lambda/DynamoDB)",
+    ]}
     contacts={[
       {
         groups: [
@@ -54,7 +63,6 @@
       },
     ]}
   />
-  <Divider />
   <Content
     sections={[
       {
@@ -62,17 +70,20 @@
         title: "WORK EXPERIENCE",
         items: [
           {
+            display: "normal",
             title: "Senior Web Developer (React) at Seven Peaks Software - Bangkok",
             subtitle: "August 2025 - Present",
-            isList: true,
+            itemType: "list",
             items: [
-              "Worked as an embedded frontend engineer within client product teams, contributing to their React/TypeScript codebase and following their engineering practices",
+              "Work as an embedded frontend engineer within client product teams, contributing to their React/TypeScript codebase and following their engineering practices",
+              "Deliver features across multiple client engagements, adapting to different product domains and team workflows",
             ],
           },
           {
+            display: "normal",
             title: "Senior Frontend Developer → Frontend Lead at Inspekt AI - Bangkok",
             subtitle: "September 2023 - July 2025",
-            isList: true,
+            itemType: "list",
             items: [
               "Promoted to Frontend Lead (Feb 2025) after delivering core 3D visualization features; led technical direction via code reviews, architecture decisions, and collaboration with design team",
               "Built sophisticated web applications using React and Typescript, leveraging CesiumJS to render and display interactive 3D models",
@@ -80,38 +91,41 @@
             ],
           },
           {
+            display: "short",
             title: "Freelance Web Developer - Bangkok",
-            subtitle: "January 2023 - August 2023",
-            isList: true,
+            subtitle: "(2023)",
+            itemType: "list",
             items: [
               "Built a website for 'Crybaby - Everybody/Cries/Sometimes Exhibition'",
               "Built a Point of Sale (PoS) system for a small shop to manage orders at event spaces / pop-up booths",
             ],
           },
           {
+            display: "short",
             title: "Software Engineer at Refinitiv, an LSEG business - Bangkok",
-            subtitle: "January 2021 - June 2022",
+            subtitle: "(2021 - 2022)",
+            itemType: "list",
             items: [
-              "Contributed to the development of a storage framework using NodeJS and Typescript",
-              "Built and maintained API endpoints for CRUD operations using AWS AppSync, Lambda and DynamoDB",
+              "Built storage framework and CRUD API endpoints using NodeJS, TypeScript, and AWS (AppSync, Lambda, DynamoDB)",
             ],
           },
           {
+            display: "short",
             title: "Full Stack Developer at Wolves Work | Digital Agency - Bangkok",
-            subtitle: "May 2018 - October 2020",
-            isList: true,
+            subtitle: "(2018 - 2020)",
+            itemType: "list",
             items: [
-              "Delivered multiple client websites, including E-Commerce platforms, blogs, and company sites using NextJS",
-              "Built a content management system for an E-Commerce website using ReactJS, styled-components, and Material UI (v3.6)",
-              "Created a user-friendly web creation tool designed for non-technical users, simplifying the website development process",
+              "Delivered multiple client websites including E-Commerce platforms, blogs, and company sites using NextJS and ReactJS",
+              "Built a content management system and a user-friendly web creation tool that enabled non-technical users to build websites",
             ],
           },
           {
+            display: "short",
             title: "Lecturer at Dhurakij Pundit University - Bangkok",
-            subtitle: "January 2014 - August 2017",
-            isList: true,
+            subtitle: "(2014 - 2017)",
+            itemType: "text",
             items: [
-              "Instructed university students on core programming and development concepts, including HTML, CSS, Javascript, Android (Java), and Unity3D (C#)",
+              "Taught core programming and development: HTML, CSS, JavaScript, Android (Java), Unity3D (C#)",
             ],
           },
         ],
@@ -121,8 +135,10 @@
       //   title: "INTERNSHIP",
       //   items: [
       //     {
+      //       display: "short",
       //       title: "Software Developer at Microsoft Innovation Center - Bangkok",
-      //       subtitle: "November 2012 - March 2013",
+      //       subtitle: "(November 2012 - March 2013)",
+      //       itemType: "text",
       //       items: [
       //         // "Developed a Windows Phone 8 application using C#",
       //         "Modified existing OpenGL project that utilized the Kinect to develop custom user interactive features",
@@ -135,8 +151,10 @@
         title: "EDUCATION",
         items: [
           {
+            display: "short",
             title: "Dhurakij Pundit University - Bangkok",
-            subtitle: "2009 - 2013",
+            subtitle: "(2009 - 2013)",
+            itemType: "text",
             items: [
               "Bachelor of Engineering in Computer Animation and Game Engineering (First Class Honours)",
             ],
