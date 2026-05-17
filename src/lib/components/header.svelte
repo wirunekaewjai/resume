@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Contact from './contact/Contact.svelte';
+  import Contact from "./header-contact.svelte";
 
   interface ItemProps {
     text: string;
@@ -22,7 +22,7 @@
     contacts: ContactProps[];
   }
 
-  let { avatar, name, job, contacts }: Props = $props();
+  const { avatar, name, job, contacts }: Props = $props();
 </script>
 
 <header class="container">
@@ -35,64 +35,55 @@
       <h2 class="subtitle">{job}</h2>
     </div>
     <div class="contacts">
-      {#each contacts as contact}
+      {#each contacts as contact, index (index)}
         <Contact groups={contact.groups} />
       {/each}
     </div>
   </div>
 </header>
 
-<style lang="scss">
-  .container
-  {
+<style>
+  .container {
     padding: 9mm 1cm 6.5mm;
     display: grid;
     grid-template-columns: 1in auto;
     column-gap: 1cm;
   }
 
-  .avatar
-  {
+  .avatar {
     width: 1in;
     height: 1in;
     border-radius: 1cm;
   }
 
-  .info
-  {
+  .info {
     display: grid;
     row-gap: 3mm;
     align-items: flex-start;
   }
 
-  .headline
-  {
+  .headline {
     display: grid;
   }
 
-  .contacts
-  {
+  .contacts {
     display: grid;
     grid-template-columns: 6cm auto;
   }
 
-  .title
-  {
+  .title {
     font-weight: 700;
     font-size: 1.75em;
   }
 
-  .subtitle
-  {
+  .subtitle {
     color: #6b7282;
     font-weight: 400;
     font-size: 1em;
   }
 
-  @media screen
-  {
-    .container
-    {
+  @media screen {
+    .container {
       border-top-left-radius: 1mm;
       border-top-right-radius: 1mm;
     }

@@ -3,14 +3,13 @@
     title: string;
   }
 
-  let { title }: Props = $props();
+  const { title }: Props = $props();
 </script>
 
 <span class="tag">{title}</span>
 
-<style lang="scss">
-  .tag
-  {
+<style>
+  .tag {
     display: inline;
     background-color: #d9d9d9;
     border-radius: 1cm;

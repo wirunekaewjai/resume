@@ -1,6 +1,6 @@
 <div class="divider"></div>
 
-<style lang="scss">
+<style>
   .divider {
     background-color: #9aa1af;
     width: 10cm;

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Group from './group/Group.svelte';
+  import Group from "./header-contact-group.svelte";
 
   interface ItemProps {
     text: string;
@@ -15,18 +15,17 @@
     groups: GroupProps[];
   }
 
-  let { groups }: Props = $props();
+  const { groups }: Props = $props();
 </script>
 
 <div class="container">
-  {#each groups as group}
+  {#each groups as group, index (index)}
     <Group icon={group.icon} items={group.items} />
   {/each}
 </div>
 
-<style lang="scss">
-  .container
-  {
+<style>
+  .container {
     display: grid;
     row-gap: 1.2mm;
     font-size: 0.8em;

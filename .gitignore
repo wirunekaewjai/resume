@@ -1,47 +1,23 @@
-# directory
-.astro/
-.build/
-.bundle/
-.cache/
-.idea/
-.litestream/
-.locals/
-.playwright-results/
-.pnpm-store/
-.rolldown/
-.svelte-kit/
-.temp/
-.tests/
-.vendors/
-__MACOSX/
-build/
-bundle/
-coverage/
-dist/
-logs/
-node_modules/
-out/
-scripts/
-target/
+node_modules
 
-# file
-*.lcov
-*.tgz
-*.tsbuildinfo
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Env
 .env
-.env.development.local
-.env.local
-.env.production
-.env.production.local
-.env.test.local
-.eslintcache
-.manifest.json
-_.log
-mprocs*
-npm-debug.log*
-pnpm-debug.log*
-report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
-sqlite.db*
-yarn-debug.log*
-yarn-error.log*
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

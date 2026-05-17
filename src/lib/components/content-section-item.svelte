@@ -6,7 +6,7 @@
     items: string[];
   }
 
-  let { title, subtitle, isList = false, items }: Props = $props();
+  const { title, subtitle, isList = false, items }: Props = $props();
 </script>
 
 <div class="container">
@@ -14,7 +14,7 @@
   <h5 class="subtitle">{subtitle}</h5>
   {#if isList || items.length > 1}
     <ul class="list">
-      {#each items as item}
+      {#each items as item, index (index)}
         <li class="item">{item}</li>
       {/each}
     </ul>
@@ -23,33 +23,28 @@
   {/if}
 </div>
 
-<style lang="scss">
-  .container
-  {
+<style>
+  .container {
     display: grid;
     row-gap: 1mm;
     font-size: 0.9em;
   }
 
-  .title
-  {
+  .title {
     font-weight: 500;
   }
 
-  .subtitle
-  {
+  .subtitle {
     line-height: 1;
     font-weight: 400;
     color: #666;
   }
 
-  .list
-  {
+  .list {
     margin: 0 0 1mm;
   }
 
-  .item
-  {
+  .item {
     margin: 1mm 0;
   }
 </style>

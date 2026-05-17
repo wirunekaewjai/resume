@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Section from './section/Section.svelte';
+  import Section from "./content-section.svelte";
 
   interface SectionItem {
     title: string;
@@ -19,23 +19,17 @@
     sections: SectionProps[];
   }
 
-  let { sections }: Props = $props();
+  const { sections }: Props = $props();
 </script>
 
 <main class="container">
-  {#each sections as section}
-    <Section
-      icon={section.icon}
-      title={section.title}
-      items={section.items}
-      tags={section.tags}
-    />
+  {#each sections as section (section.title)}
+    <Section icon={section.icon} title={section.title} items={section.items} tags={section.tags} />
   {/each}
 </main>
 
-<style lang="scss">
-  .container
-  {
+<style>
+  .container {
     padding: 6.5mm 2cm 0 1cm;
     display: grid;
     row-gap: 5mm;
