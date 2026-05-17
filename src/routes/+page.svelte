@@ -66,31 +66,27 @@
             subtitle: "August 2025 - Present",
             isList: true,
             items: [
-              "Contributing to the development of a comprehensive web application using React and utilized AI tools to enhance productivity",
+              "Worked as an embedded frontend engineer within client product teams, contributing to their React/TypeScript codebase and following their engineering practices",
             ],
           },
           {
-            title: "Frontend Lead at Inspekt AI - Bangkok",
-            subtitle: "February 2025 - July 2025",
+            title: "Senior Frontend Developer → Frontend Lead at Inspekt AI - Bangkok",
+            subtitle: "September 2023 - July 2025",
             isList: true,
             items: [
-              "Guide frontend technical direction via decision-making, code reviews and collaborating with design team",
-              "Spearhead the development and implementation of core application features",
-            ],
-          },
-          {
-            title: "Senior Frontend Developer at Inspekt AI - Bangkok",
-            subtitle: "September 2023 - January 2025",
-            isList: true,
-            items: [
-              "Develop sophisticated web applications using React and Typescript, leveraging CesiumJS to render and display interactive 3D models",
+              "Promoted to Frontend Lead (Feb 2025) after delivering core 3D visualization features; led technical direction via code reviews, architecture decisions, and collaboration with design team",
+              "Built sophisticated web applications using React and Typescript, leveraging CesiumJS to render and display interactive 3D models",
+              "Spearheaded development of core application features including measurement tools and annotation system",
             ],
           },
           {
             title: "Freelance Web Developer - Bangkok",
-            subtitle: "April 2023 - August 2023",
+            subtitle: "January 2023 - August 2023",
             isList: true,
-            items: ["Developed a website for 'Crybaby - Everybody/Cries/Sometimes Exhibition'"],
+            items: [
+              "Built a website for 'Crybaby - Everybody/Cries/Sometimes Exhibition'",
+              "Built a Point of Sale (PoS) system for a small shop to manage orders at event spaces / pop-up booths",
+            ],
           },
           {
             title: "Software Engineer at Refinitiv, an LSEG business - Bangkok",

@@ -42,7 +42,7 @@
 
 <style>
   .container {
-    padding: 9mm 1cm 6.5mm;
+    padding: 9mm 1cm 5mm;
     display: grid;
     grid-template-columns: 1in auto;
     column-gap: 1cm;

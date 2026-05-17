@@ -30,7 +30,7 @@
 
 <style>
   .container {
-    padding: 6.5mm 2cm 0 1cm;
+    padding: 5mm 2cm 0 1cm;
     display: grid;
     row-gap: 5mm;
   }
