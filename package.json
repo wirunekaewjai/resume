@@ -1,35 +1,35 @@
 {
-  "name": "resume",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "resume-v2",
+  "version": "0.0.2",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.1.2",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://wirunekaewjai@github.com/wirunekaewjai/resume.git"
-  },
-  "keywords": [],
-  "author": "Wirune Kaewjai",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wirunekaewjai/resume/issues"
-  },
-  "homepage": "https://github.com/wirunekaewjai/resume#readme",
-  "dependencies": {
-    "clsx": "^1.1.1",
-    "next": "^12.0.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write ."
   },
   "devDependencies": {
-    "@types/node": "^14.11.10",
-    "@types/react": "^16.9.53",
-    "@types/react-dom": "^16.9.8",
-    "sass": "^1.27.0",
-    "typescript": "^4.0.3"
+    "@eslint/js": "10.0.1",
+    "@sveltejs/adapter-static": "3.0.10",
+    "@sveltejs/kit": "2.60.1",
+    "@sveltejs/vite-plugin-svelte": "7.1.2",
+    "@types/node": "25.8.0",
+    "eslint": "10.4.0",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-svelte": "3.17.1",
+    "globals": "17.6.0",
+    "prettier": "3.8.3",
+    "prettier-plugin-svelte": "3.5.2",
+    "svelte": "5.55.7",
+    "svelte-check": "4.4.8",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.59.3",
+    "vite": "8.0.13"
   }
 }
