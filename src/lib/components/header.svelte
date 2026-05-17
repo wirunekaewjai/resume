@@ -18,11 +18,10 @@
   interface Props {
     avatar: string;
     name: string;
-    job: string;
     contacts: ContactProps[];
   }
 
-  const { avatar, name, job, contacts }: Props = $props();
+  const { avatar, name, contacts }: Props = $props();
 </script>
 
 <header class="container">
@@ -32,7 +31,6 @@
   <div class="info">
     <div class="headline">
       <h1 class="title">{name}</h1>
-      <h2 class="subtitle">{job}</h2>
     </div>
     <div class="contacts">
       {#each contacts as contact, index (index)}
@@ -74,12 +72,6 @@
   .title {
     font-weight: 700;
     font-size: 1.75em;
-  }
-
-  .subtitle {
-    color: #6b7282;
-    font-weight: 400;
-    font-size: 1em;
   }
 
   @media screen {

@@ -17,7 +17,6 @@
   <Header
     avatar={avatarSrc}
     name="WIRUNE KAEWJAI"
-    job="Senior Frontend Engineer"
     contacts={[
       {
         groups: [
@@ -63,8 +62,16 @@
         title: "WORK EXPERIENCE",
         items: [
           {
+            title: "Senior Web Developer (React) at Seven Peaks Software - Bangkok",
+            subtitle: "August 2025 - Present",
+            isList: true,
+            items: [
+              "Contributing to the development of a comprehensive web application using React and utilized AI tools to enhance productivity",
+            ],
+          },
+          {
             title: "Frontend Lead at Inspekt AI - Bangkok",
-            subtitle: "February 2025 - Present",
+            subtitle: "February 2025 - July 2025",
             isList: true,
             items: [
               "Guide frontend technical direction via decision-making, code reviews and collaborating with design team",
@@ -78,6 +85,12 @@
             items: [
               "Develop sophisticated web applications using React and Typescript, leveraging CesiumJS to render and display interactive 3D models",
             ],
+          },
+          {
+            title: "Freelance Web Developer - Bangkok",
+            subtitle: "April 2023 - August 2023",
+            isList: true,
+            items: ["Developed a website for 'Crybaby - Everybody/Cries/Sometimes Exhibition'"],
           },
           {
             title: "Software Engineer at Refinitiv, an LSEG business - Bangkok",
@@ -107,20 +120,20 @@
           },
         ],
       },
-      {
-        icon: "work",
-        title: "INTERNSHIP",
-        items: [
-          {
-            title: "Software Developer at Microsoft Innovation Center - Bangkok",
-            subtitle: "November 2012 - March 2013",
-            items: [
-              "Developed a Windows Phone 8 application using C#",
-              "Modified existing OpenGL project that utilized the Kinect to develop custom user interactive features",
-            ],
-          },
-        ],
-      },
+      // {
+      //   icon: "work",
+      //   title: "INTERNSHIP",
+      //   items: [
+      //     {
+      //       title: "Software Developer at Microsoft Innovation Center - Bangkok",
+      //       subtitle: "November 2012 - March 2013",
+      //       items: [
+      //         // "Developed a Windows Phone 8 application using C#",
+      //         "Modified existing OpenGL project that utilized the Kinect to develop custom user interactive features",
+      //       ],
+      //     },
+      //   ],
+      // },
       {
         icon: "school",
         title: "EDUCATION",
