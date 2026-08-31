@@ -5,10 +5,10 @@
 </script>
 
 <svelte:head>
-  <title>Wirune Kaewjai - Software Engineer</title>
+  <title>Wirune Kaewjai - Senior Software Engineer</title>
   <meta
     name="description"
-    content="Experienced as a website developer for 6 years with ReactJS. Create a many websites such as Blog, E-Commerce and Content Management System."
+    content="Senior Software Engineer with 7+ years of experience across modern web technologies (React, Next.js, Node.js, TypeScript), with a strong background in interactive web applications and team leadership"
   />
 </svelte:head>
 
@@ -16,7 +16,7 @@
   <Header
     avatar={avatarSrc}
     name="WIRUNE KAEWJAI"
-    heading="Software Engineer with 7+ years of experience across modern web technologies (React, Next.js, Node.js, TypeScript), with a strong background in interactive web applications and team leadership"
+    heading="Senior Software Engineer with 7+ years of experience across modern web technologies (React, Next.js, Node.js, TypeScript), with a strong background in interactive web applications and team leadership"
     stack={[
       "React",
       "TypeScript",
