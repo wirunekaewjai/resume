@@ -16,7 +16,7 @@
   <Header
     avatar={avatarSrc}
     name="WIRUNE KAEWJAI"
-    heading="Senior Frontend Engineer with 7+ years building React/TypeScript applications, specializing in interactive 3D web experiences (CesiumJS). Background in Computer Animation & Game Engineering."
+    heading="Software Engineer with 7+ years of experience across modern web technologies (React, Next.js, Node.js, TypeScript), with a strong background in interactive web applications and team leadership"
     stack={[
       "React",
       "TypeScript",
@@ -71,12 +71,12 @@
         items: [
           {
             display: "normal",
-            title: "Senior Web Developer (React) at Seven Peaks Software - Bangkok",
+            title: "Senior Web Developer at Seven Peaks Software - Bangkok",
             subtitle: "August 2025 - Present",
             itemType: "list",
             items: [
-              "Work as an embedded frontend engineer within client product teams, contributing to their React/TypeScript codebase and following their engineering practices",
-              "Deliver features across multiple client engagements, adapting to different product domains and team workflows",
+              "Deliver scalable web applications across diverse client engagements using React and TypeScript, adhering to modern engineering and architecture standards",
+              "Collaborate closely with Product Owners, Tech Leads, Backend Engineers, and QA in an Agile environment to refine requirements, align on API contracts, and ensure end-to-end code quality",
             ],
           },
           {
@@ -106,7 +106,7 @@
             subtitle: "(2021 - 2022)",
             itemType: "list",
             items: [
-              "Built storage framework and CRUD API endpoints using NodeJS, TypeScript, and AWS (AppSync, Lambda, DynamoDB)",
+              "Architected and developed a scalable serverless core storage module using Node.js, TypeScript, AWS Lambda, AppSync, and DynamoDB",
             ],
           },
           {
