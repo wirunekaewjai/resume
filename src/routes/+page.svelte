@@ -75,8 +75,9 @@
             subtitle: "August 2025 - Present",
             itemType: "list",
             items: [
-              "Deliver scalable web applications across diverse client engagements using React and TypeScript, adhering to modern engineering and architecture standards",
-              "Collaborate closely with Product Owners, Tech Leads, Backend Engineers, and QA in an Agile environment to refine requirements, align on API contracts, and ensure end-to-end code quality",
+              "Deliver scalable web applications for diverse clients using React and TypeScript",
+              "Collaborate with POs, Tech Leads, Backend Engineers, and QA in Agile teams to refine requirements and align on API contracts",
+              "Contribute to backend development on selected tasks, implementing API endpoints and integrations",
             ],
           },
           {
@@ -86,8 +87,8 @@
             itemType: "list",
             items: [
               "Promoted to Frontend Lead (Feb 2025) after delivering core 3D visualization features; led technical direction via code reviews, architecture decisions, and collaboration with design team",
-              "Built sophisticated web applications using React and Typescript, leveraging CesiumJS to render and display interactive 3D models",
-              "Spearheaded development of core application features including measurement tools and annotation system",
+              "Built core 3D features with React, TypeScript, and CesiumJS, including measurement tools and an annotation system",
+              "Stepped into full-stack development to build internal tools during backend resource constraints, unblocking team workflows",
             ],
           },
           {
@@ -96,7 +97,7 @@
             subtitle: "(2023)",
             itemType: "list",
             items: [
-              "Built a website for 'Crybaby - Everybody/Cries/Sometimes Exhibition'",
+              "Built an exhibition website (Crybaby - Everybody/Cries/Sometimes Exhibition)",
               "Built a Point of Sale (PoS) system for a small shop to manage orders at event spaces / pop-up booths",
             ],
           },
@@ -115,8 +116,8 @@
             subtitle: "(2018 - 2020)",
             itemType: "list",
             items: [
-              "Delivered multiple client websites including E-Commerce platforms, blogs, and company sites using NextJS and ReactJS",
-              "Built a content management system and a user-friendly web creation tool that enabled non-technical users to build websites",
+              "Delivered client websites (e-commerce, blogs, corporate) using Next.js and React",
+              "Built a CMS and a no-code website builder for non-technical users",
             ],
           },
           {

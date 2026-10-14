@@ -33,6 +33,6 @@
   .container {
     padding: 3mm 2cm 0 1cm;
     display: grid;
-    row-gap: 5mm;
+    row-gap: 4mm;
   }
 </style>

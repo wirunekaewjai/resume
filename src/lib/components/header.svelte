@@ -99,12 +99,12 @@
   .stack-items {
     display: flex;
     flex-wrap: wrap;
-    gap: 1mm;
+    gap: 0.5mm;
   }
 
   .stack-items span {
     background-color: #f0f0f0;
-    padding: 1mm 2mm;
+    padding: 0.5mm 1.5mm;
     white-space: nowrap;
     border-radius: 2mm;
     margin-left: 1mm;
