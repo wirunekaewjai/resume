@@ -89,6 +89,7 @@
               "Promoted to Frontend Lead (Feb 2025) after delivering core 3D visualization features; led technical direction via code reviews, architecture decisions, and collaboration with design team",
               "Built core 3D features with React, TypeScript, and CesiumJS, including measurement tools and an annotation system",
               "Stepped into full-stack development to build internal tools during backend resource constraints, unblocking team workflows",
+              "Traced a production issue through the backend team’s Django code to a ~100K-row bulk update that fanned out into per-record cache-invalidation jobs",
             ],
           },
           {
@@ -107,7 +108,7 @@
             subtitle: "(2021 - 2022)",
             itemType: "list",
             items: [
-              "Architected and developed a scalable serverless core storage module using Node.js, TypeScript, AWS Lambda, AppSync, and DynamoDB",
+              "Architected a scalable serverless core storage module (Node.js, TypeScript, AWS Lambda, AppSync, DynamoDB) and developed frontend with Vue 2",
             ],
           },
           {

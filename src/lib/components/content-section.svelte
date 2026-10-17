@@ -56,7 +56,7 @@
 
   .info {
     display: grid;
-    row-gap: 3mm;
+    row-gap: 2mm;
   }
 
   .title {
